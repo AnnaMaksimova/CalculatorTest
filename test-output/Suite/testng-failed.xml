@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.epam.moscow.module4.test.CalculatorTestDiv">
+        <methods>
+          <include name="setUp"/>
+          <include name="testDivv"/>
+          <include name="resulttime"/>
+        </methods>
+      </class> <!-- com.epam.moscow.module4.test.CalculatorTestDiv -->
+      <class name="com.epam.moscow.module4.test.CalculatorTestMult">
+        <methods>
+          <include name="testMult" invocation-numbers="2"/>
+          <include name="setUp"/>
+          <include name="resulttime"/>
+        </methods>
+      </class> <!-- com.epam.moscow.module4.test.CalculatorTestMult -->
+      <class name="com.epam.moscow.module4.test.CalculatorTestSum">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSumm"/>
+          <include name="resulttime"/>
+        </methods>
+      </class> <!-- com.epam.moscow.module4.test.CalculatorTestSum -->
+      <class name="com.epam.moscow.module4.test.CalculatorTestSub">
+        <methods>
+          <include name="setUp"/>
+          <include name="testSub" invocation-numbers="2"/>
+          <include name="resulttime"/>
+        </methods>
+      </class> <!-- com.epam.moscow.module4.test.CalculatorTestSub -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

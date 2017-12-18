@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test" parallel="tests">
+    <classes>
+      <class name="com.epam.moscow.module4.test.BaseTestCalculator"/>
+      <class name="com.epam.moscow.module4.test.CalculatorTestMult"/>
+      <class name="com.epam.moscow.module4.test.CalculatorTestSub"/>
+      <class name="com.epam.moscow.module4.test.CalculatorTestDiv"/>
+      <class name="com.epam.moscow.module4.test.CalculatorTestSum"/>
+      <class name="com.epam.moscow.module4.test.TestGroups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
